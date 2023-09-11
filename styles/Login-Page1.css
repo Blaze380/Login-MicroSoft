@@ -1,0 +1,127 @@
+.opcoes{
+    box-shadow: 0px 0px 6px 2px #00000030;
+    background-color: #FFFFFF;
+    max-width: 390px;
+    width: 70%;
+    padding: 1px;
+    padding-left: 40px;
+    position: absolute;
+    margin-top: 43px;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+    transition: 70ms;
+}
+.opcoes div{
+    display: flex;
+
+
+}
+
+
+
+#opcoes-sessao{
+    opacity: 0%;
+    background-color: #FFFFFF;
+    border-radius: none;
+    max-width: 390px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+#opcao1,#opcao2,#opcao3{
+    padding: 1%;
+    margin-right: 16%;
+    margin-left: 12%;
+    background-color: #FFFFFF;
+  /*  
+    border-color: black;
+    border-style: dashed;
+    border-radius: 2px;
+*/    
+    transition: 70ms;
+}
+
+
+#opcoes-sessao img{
+    width: 100px;
+    height: 44px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#op p{
+    font-family: ebrima,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.titulos{
+    font-family: ebrima,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+#op{
+    margin-bottom: 20%;
+}
+
+.opcoes p{
+    font-family: ebrima;
+    font-size: 15px;
+}
+.opcoes img{
+    padding-top: 7px;
+    margin-left: -5px;
+    margin-right: 25px;
+    width: 20px;
+    height: 20px;
+}
+.opcoes:hover{
+    background-color:  #f1f0f0;
+    cursor: pointer;
+}
+form hr{
+    transition:ease-in-out;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 4s;
+}
+#previous1{
+    background-color: #c5c5c5;
+    margin-left: 50%;
+    }
+#previous1:hover{
+        background-color: #B2B2B2;
+    }
+#imagem1,#imagem2,#imagem3{
+    display: flex;
+    padding-left: 10%;
+    margin-left: -5%;
+    margin-right: -5%;
+    transition: 70ms;
+}
+#imagem1 img,#imagem3 img{
+  width: 30px;
+  height: 30px;
+  margin-top: 6%;
+  margin-right: -5%;
+  margin-left: 1%;
+}
+
+#imagem2 img{
+    width: 50px;
+    height: 50px;
+    margin-left: -2%;
+    margin-right: -8%;
+  }
+
+#imagem1:hover,#imagem2:hover,#imagem3:hover{
+   background-color:  #f1f0f0;
+   cursor: pointer;
+}
+
+#opcao1:hover,#opcao2:hover,#opcao3:hover{
+    background-color:  #f1f0f0;
+    cursor: pointer;
+}

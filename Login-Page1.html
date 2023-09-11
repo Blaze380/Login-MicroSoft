@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sessão na sua conta Microsoft</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Microsoft-Logo-Header.ico">
+</head>
+<body >
+    <link rel="stylesheet" href="styles/Login-Page1.css">
+    <link rel="stylesheet" href="styles/Default-Style.css">
+    <form class="container" id="contain">
+       <div id="main">
+        <div class="up">
+            <img src="images/MicroSoft-Logo.png" alt="MicroSoft-Logo">
+
+            <h1>Iniciar sessão</h1>
+            <p id="error-email">Introduza um endereço de e-mail, número de telefone ou o nome de Skype válido.</p>
+            <input type="text" id="email" placeholder="E-mail, telefone ou Skype">
+            <hr id="bar">
+            <p>Nenhuma conta? <a href="Create-Account.html">Crie uma!</a></p>
+            <a href="http://">Não consegue aceder à sua conta?</a>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Anterior" id="previous">
+            <input type="submit" value="Seguinte" id="next">
+        </div>
+
+       </div> <!--end main div-->
+    </form>
+    <div id="loading">
+        <div id="lg"></div>
+    </div>
+    <div id="opcoes-sessao">
+        <div id="op">
+            <div>
+                <img src="images/MicroSoft-Logo.png" alt="MicroSoft-Logo"> 
+                <h1>Opcões de inicio de sessão</h1>
+                    <div id="imagem1">
+                        <img src="images/Windows.png" alt="">
+                        <div id="opcao1">
+                            <p>	
+                                <span class="titulos">Iniciar sessão com o Windows Hello ou com uma chave de segurança</span><br>
+                                Escolha esta opção apenas se ativou o Windows Hello ou uma chave de segurança na sua conta.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="imagem2">
+                        <img src="images/Github.png" alt="">
+                        <div id="opcao2">
+                            <p>
+                                <span class="titulos">Iniciar sessão com o GitHub</span><br>
+                            Apenas contas pessoais
+                            </p>
+                        </div>
+                    </div>
+                    <div id="imagem3">
+                        <img src="images/Organization.png" alt="">
+                        <div id="opcao3">
+                            <p>
+                                <span class="titulos">Iniciar sessão numa organização</span><br>
+                                Procure por uma empresa ou organização com a qual esteja a trabalhar.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Anterior" id="previous1">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="opcoes" id="btn-sessao">
+        <div id="btn-sessao">
+            <img src="images/key.png" alt="badjia">
+            <div>
+                <p>Opções de início de sessão</p>
+            </div>
+        </div>
+    </form>
+    <script src="scripts/LoginPage1.js"></script>
+</body>
+</html>

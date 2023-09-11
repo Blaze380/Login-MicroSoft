@@ -1,0 +1,134 @@
+@keyframes fundo{
+    25%{
+        background-color: rgb(180, 134, 134);
+    }
+    50%{
+        background-color: rgb(91, 178, 250);
+    }
+    75%{
+        background-color: rgb(152, 243, 152);
+    }
+    100%{
+    background-color: rgb(243, 202, 127);
+    }
+}
+body{
+    background-color: rgb(212, 166, 166);
+    /*animation-name: fundo;*/
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#loading{
+    display: none;
+    background-color: #667785;
+    opacity: 42%;
+    border-radius: none;
+    max-width: 390px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+#lg{
+    margin-bottom: 76%;
+    background-color: #0576cc;
+}
+.container{
+    box-shadow: 0px 0px 6px 2px #00000030;
+    background-color: #FFFFFF;
+    max-width: 390px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.up{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.buttons{
+    margin-left: 30%;
+    margin-bottom: 20px;
+
+}
+.buttons input[type="submit"]{
+    width: 120px;
+    height: 35px;
+    margin-left: 3px;
+    border-style: none;
+    transition: 70ms;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.buttons input[type="submit"]:hover{
+cursor: pointer;
+}
+#error-email{
+    font-family: ebrima;
+    color: #ED4452;
+    font-size: 15px;
+    margin-bottom: -1px;
+    display: none;
+}
+
+h1{
+    color: #1B1B1B;
+    font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+form p {
+    font-family: ebrima;
+    font-size: 13px;
+}
+form img{
+    width: 100px;
+    height: 44px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+form input[type="text"]{
+    border-style: none;
+    width: 340px;
+    height: 30px;
+    font-size: 15px;
+}
+form input[type="text"]::placeholder{
+      font-family: ebrima;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form a{
+    color:#0067B8;
+    text-decoration: none;
+    font-family: ebrima;
+    font-size: 13px;
+}
+form a:hover{
+    color: #EFEFEF;
+    text-decoration: underline;
+}
+
+#previous{
+background-color: #c5c5c5;
+}
+#previous:hover{
+    background-color: #B2B2B2;
+}
+
+#next{
+background-color: #0576cc;
+color: white;
+}
+#next:hover{
+    background-color: #0067B8;
+}
+
